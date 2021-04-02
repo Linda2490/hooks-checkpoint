@@ -56,9 +56,10 @@ function App () {
   return (
     <div>
        <NavBar getRateSearch={getRateSearch} getTitleSearch={getTitleSearch}/>
-       <MovieList myMoviesList={movies} searchRate={searchRate} searchTitle={searchTitle}/>
        <div className="addMovieBtn"> <AddMovie getNewMovie={getNewMovie}/>
        </div>
+       <MovieList myMoviesList={movies} searchRate={searchRate} searchTitle={searchTitle}/>
+       
        
     </div>
   );
